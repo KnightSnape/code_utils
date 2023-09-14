@@ -1,4 +1,4 @@
-﻿#ifndef POLYNOMIAL_H
+#ifndef POLYNOMIAL_H
 #define POLYNOMIAL_H
 
 #include <math.h>

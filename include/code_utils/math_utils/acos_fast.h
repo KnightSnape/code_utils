@@ -3,7 +3,7 @@
 
 template< typename T >
 T
-acosFaster_acc( const T x ) const
+acosFaster_acc( const T x ) 
 {
     T a = 1.43 + 0.59 * x;
     a   = ( a + ( 2 + 2 * x ) / a ) / 2;
@@ -16,7 +16,7 @@ acosFaster_acc( const T x ) const
 
 template< typename T >
 T
-acosFaster_sqrt( const T x ) const
+acosFaster_sqrt( const T x ) 
 {
     T a = sqrt( T( 2 ) + T( 2 ) * x );
     T b = sqrt( T( 2 ) - T( 2 ) * x );
@@ -26,7 +26,7 @@ acosFaster_sqrt( const T x ) const
 
 template< typename T >
 T
-acosFaster_linear( const T x ) const
+acosFaster_linear( const T x ) 
 {
     return ( T( 3.14159 ) - T( 1.57079 ) * x );
 }
